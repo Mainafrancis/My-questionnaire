@@ -8,47 +8,48 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-      <img src="" alt="img"> id="img" class="img">
-       <h1 id="Title">QUIZ BOARD</h1>
+       <img src="/logo.png" alt="img" id="img" class="img">
+    <h1 id="title">Today's Quiz</h1>
 
-     <div id="quiz container">
-          <div class="questions">
-              <h2 id="questions"></h2>
-                  <ol type="A">
-                      <li class="options"><span id="option0"></span></li>
-                      <li class="options"><span id="option1"></span></li>
-                      <li class="options"><span id="option2"></span></li>
-                      <li class="options"><span id="option3"></span></li>
-                  </ol>
-                  <h4 id="stat"></h4>
-          </div>
-           <div class="buttons">
-                    <button type="button" class="next"></button>
-         </div>
-     </div>
-          <div id="scoreboard">
-                <img src="" alt="">
-                <h2 id="score-title">Your Score</h2>
-                <h2 id="score"></h2>
-                <button type="button" id="score-btn">Back to quiz</button>
-                <button type="button" id="check-answer">check-answer</button>
+    <!-- quiz-container -->
+    <div id="quiz-container">
+        <!-- question container -->
+        <div class="questions">
+            <h2 id="question"></h2>
+            <ol type="A">
+                <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option3" onclick="calcScore(this)"></span></li>
+            </ol>
+            <h4 id="stat"></h4>
+        </div>
 
+        <div class="buttons">
+            <button type="button" class="next">Next</button>
+        </div>
 
+    </div>
 
+    <!-- scoreboard section -->
+    <div id="scoreboard">
+        <img src="/logo.png" alt="">
+        <h2 id="score-title">Your Score</h2>
+        <h2 id="score"></h2>
+        <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+        <button type="button" id="check-answer" onclick="checkAnswer()">Check Answers</button>
+    </div>
 
-          </div>
- 
+    <!-- answers section -->
+    <div id="answerBank">
+        <h2>Answers :</h2>
+        <ol type="1" id="answers">
 
+        </ol>
+        <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+    </div>
 
-
-
-
-
-
-
-
-
-     <script></script>
-
+    <!-- javascript file source -->
+    <script src="/script.js"></script>
 </body>
 </html>
