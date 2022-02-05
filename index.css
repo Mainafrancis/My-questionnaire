@@ -34,4 +34,73 @@ img{
       background: rgba(0,255,221,0.45);
       cursor: default;
 }
+#question{
+       margin-bottom: 1rem;
+}   
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem blue;
+    width: 15rem;
+    background: lightblue;
+    border-radius: 1rem;
+}  
+.option:hover{
+     color: white;
+} 
+ol{
+     position: relative;
+     padding: 0 1.5rem;
+     color: rgb(1, 73,73);
+}
+span{
+     display: block;
+     padding: 0.1rem 0.7rem;
+     border-radius: 1rem;
+}
+#answer{
+     margin-top: 2.5rem;
+}
+#stat{
+     margin-top: 1.5rem;
+     color: red;
+}
+.buttons{
+    text-align: center;
+}
+button{
+     padding: 0.2rem 1.5rem;
+     border: none;
+     outline: none;
+     font-size: 1.5rem;
+     border-radius: 1.5rem;
+     color: brown;
+     background: white;
+}
+button:active{
+      background: lavender;
+}
+#scoreboard,#answerBank{
+       width: 20rem;
+       background: white;
+       padding: 2rem;
+       text-align: center;
+       margin: auto;
+       position: relative;
+       top: 5rem;
+}
+#score-title{
+        margin: 1rem;
+}
+#score-btn,#check-answer{
+        margin-top: 1rem;
+}
+#score{
+        font-size: 2.5rem;
+}
+#answerBank li{
+         
+
+
+}
 
