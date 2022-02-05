@@ -1,0 +1,55 @@
+*{
+   margin: 40;
+   padding: 40;
+   box-sizing: border-box;
+}
+body{
+   font-family: sans-serif;
+   background: linear-gradient(115deg, rgba(101,151,209,0.8),rgba(202,102,211,0.5)),url(./images/6ix9ine-Tattle-Tales-ALBUM.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 100vh;
+}
+img{
+     width: 5.5rem;
+     height: 5.2rem;
+     border-radius: 50%;
+}
+.img{
+    position: fixed;
+}
+#title{
+     text-align: center;
+     padding: 0.8rem 0;
+     font-size: 3rem;
+     color: blue;
+     background: rgba(105,224,90,0.5);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.questions{
+      margin: 3rem auto;
+      width: 90vw;
+      padding: 2rem;
+      background: rgba(0,255,221,0.45);
+      cursor: default;
+      border-radius: 1rem;
+}
+#question{
+    margin-bottom: 1rem;
+}
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem brown;
+    width: 15rem;
+    background: lightcoral;
+    border-radius: 1rem;
+}
+.option:hover{
+    color: white;
+}
+ol{
+    position: relative;
+}
+
