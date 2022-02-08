@@ -17,18 +17,24 @@ Each question carries different marks.
 + [Authors Info](#author-Info)
 ## Description
 <p>This is  a website that shows my questionnaires.It contains some questions set to be answered by the students.</p>
+
 ## Installation
+
 ### Requirements
 * Either a computer,phone,tablet or an Ipad
 * An access to the Internet
+
 ### Installation Process
 [Go Back to the top](#questionnaire)
+
 ## Technology Used
 * HTNL - which was used to build the structure of the pages.
 * CSS - which was used to style the pages incuding the left aside navigation bar
+
 ## Reference
 * Materialize CSS
 [Go Back to the top](#questionnaire)
+
 ## Licence
 MIT License
 Copyright (c) [2022] [Francis Mwangi]
@@ -48,6 +54,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 [Go Back to the top](#questionnaire)
+
 ## Authors Info
 Slack Profile - [Francis Mwangi](https://app.slack.com/client/T077KKCG6/GLRQR61NW/user_profile/UKXCHMCNP?cdn_fallback=1)
 Linked - [Francis Mwangi](https://www.linkedin.com/in/francis mwangi-664811144/)
